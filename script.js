@@ -42,7 +42,7 @@ function add(num){
 	return new Promise((res,rej)=>{
 		num=num+10
 		setTimeout(()=>{
-			op.textContent=`Result: ${num}`
+			op.textContent=`Final Result: ${num}`
 			res(num)
 		},1000)
 	})
